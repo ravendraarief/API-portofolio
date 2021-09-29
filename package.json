@@ -1,0 +1,31 @@
+{
+  "name": "api-portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravendraarief/API-portofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravendraarief/API-portofolio/issues"
+  },
+  "homepage": "https://github.com/ravendraarief/API-portofolio#readme"
+}
